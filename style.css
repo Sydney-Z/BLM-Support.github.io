@@ -1,0 +1,148 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: white;
+  
+}
+
+h1 {
+  font-style:'Staatliches', cursive; 
+  color: black;
+  float:left;
+  margin:0;
+
+}
+
+p {
+  color: black;
+}
+
+#name{
+  color: #333;
+  font-family: 'Francois One', sans-serif;
+  font-size: 45px;
+}
+
+#name{
+  background: white;
+  margin-top: 90px;
+  width: 45%;
+  float: left;
+}
+
+#divRight{
+  float: right;
+  background: white;
+  width: 45%
+}
+
+#divRight{
+  font-family: 'Exo 2', sans-serif;
+  font-size: 18px;
+  margin-top: 40px;
+}
+img {
+  margin:0 auto;
+    text-align:center;
+}
+div {
+  text-align: center;
+/*   outline: solid white 1px; */
+}
+
+#image1{
+  opacity:80%;
+  width:1400px;
+  object-fit: cover;
+  margin-left:-2em;
+  margin-right:-2em;
+  filter: brightness(50%)
+}
+
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+/*   background-color: #333; */
+}
+
+#nav li {
+  float: right;
+}
+
+#nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#nav li a:hover {
+  background-color: #eee;
+}
+.active {
+  background-color: #4CAF50;
+}
+
+
+#nav{
+  font-family: 'Staatliches', cursive;
+  font-size: 25px;
+
+}
+#image2 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 80px;
+  font-family: 'Staatliches', cursive;
+}
+#links {
+  margin: 0 auto;
+}
+#waystohelp{
+  margin: 0;
+  position: absolute;
+  left: 15%;
+  top:50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+#w2{
+  margin: 0;
+  position: absolute;
+  left: 35%;
+  top:50%;
+
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#w3{
+  margin: 0;
+  position: absolute;
+  left: 55%;
+top:50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#w4{
+  margin: 0;
+  position: absolute;
+  left: 80%;
+top:50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
