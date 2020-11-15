@@ -12,24 +12,40 @@ h1 {
   color: black;
   float:left;
   margin:0;
-
 }
 
-p {
-  color: black;
-}
+h2 {
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+  font-color: #BF3737;
 
+}
 #name{
-  color: #333;
+  color: black;
   font-family: 'Francois One', sans-serif;
   font-size: 45px;
 }
 
+#border {
+  border-style: outset;
+  border-color: grey;
+  padding: 15px;
+}
 #name{
   background: white;
-  margin-top: 90px;
+  padding: 60px;
+  margin-top: 45px;
   width: 45%;
   float: left;
+}
+
+#border2 {
+  padding: 64px;
+}
+
+#disparities {
+  font-size: 45px;
+  font-family: 'Staatliches', cursive;
 }
 
 #divRight{
@@ -39,13 +55,12 @@ p {
 }
 
 #divRight{
-  font-family: 'Exo 2', sans-serif;
   font-size: 18px;
   margin-top: 40px;
 }
 img {
   margin:0 auto;
-    text-align:center;
+  text-align:center;
 }
 div {
   text-align: center;
@@ -112,37 +127,56 @@ div {
 #links {
   margin: 0 auto;
 }
-#waystohelp{
-  margin: 0;
-  position: absolute;
-  left: 15%;
-  top:50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
 
+.col {
+  display: table-cell; /* Make elements inside the container behave like table cells */
+  float: center;
+  width: 25%;
+  padding: 18px;
 }
-#w2{
-  margin: 0;
+
+
+.dropbtn {
+  background-color: #555;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
   position: absolute;
-  left: 35%;
-  top:50%;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #333;}
 
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-#w3{
-  margin: 0;
-  position: absolute;
-  left: 55%;
-top:50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-#w4{
-  margin: 0;
-  position: absolute;
-  left: 80%;
-top:50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
+
+
